@@ -1,0 +1,8 @@
+print("welcome to the tip calculator")
+amt = int(input("what is your total billing amount?"))
+tip = int(input("how much percent would you like to tip?"))
+people= int(input("how many people are there?"))
+total_amount= amt+0.01*tip
+print(f"the amount with tip is {total_amount}")
+single_amt=total_amount/people
+print(f"each one will pay {single_amt}")
